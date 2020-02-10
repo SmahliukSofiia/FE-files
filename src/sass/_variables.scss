@@ -1,0 +1,76 @@
+$font-normal: 'Solomon Sans Normal';
+$font-semibold: 'Solomon Sans SemiBold';
+$font-bold: 'Solomon Sans Bold';
+
+$light-color: #fff;
+$dark-color: #000;
+
+@mixin title-h1 {
+    font-family: $font-normal;
+    font-size: 50px;
+    line-height: 54px;
+}
+@mixin titile-h1-mob {
+    font-family: $font-normal;
+    font-size: 30px;
+    line-height: 40px;
+}
+@mixin title-h2 {
+    font-family: $font-normal;
+    font-size: 30px;
+    line-height: 36px;
+}
+@mixin title-h2-mob {
+    font-family: $font-normal;
+    font-size: 26px;
+    line-height: 32px;
+}
+@mixin title-h2-bold {
+    font-family: $font-semibold;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+}
+@mixin title-h2-bold-mob {
+    font-family: $font-semibold;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+}
+@mixin title-h3 {
+    font-family: $font-bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+@mixin p-regular {
+    font-family: $font-normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+@mixin p-regular-bold {
+    font-family: $font-bold;
+    font-size: 16px;
+    line-height: 26px;
+}
+@mixin paragraph-s {
+    font-family: $font-normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+@mixin paragraph-l {
+    font-family: $font-normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+@mixin paragraph-xl {
+    font-family: $font-normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+@mixin paragraph-xl-mob {
+    font-family: $font-normal;
+    font-size: 20px;
+    line-height: 26px;
+}
